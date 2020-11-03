@@ -14,7 +14,7 @@ BINGO
 - [x] total electoral votes
 - [x] connect logic with map
 - [x] connect logic to spin button
-- [ ] add something that tracks results over time
-- [ ] add spin 10x spin 100x spin until x wins buttons
-- [ ] add "created by" section with contact CTA
+- [x] add something that tracks results over time
+- [x] add spin 10x spin 100x spin until x wins buttons
+- [x] add "created by" section with contact CTA
 - [ ] add ads?
