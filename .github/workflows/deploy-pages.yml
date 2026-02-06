@@ -22,10 +22,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 16
-      - run: npm install
+      - run: npm install --legacy-peer-deps
       - run: npm run build
         env:
           PUBLIC_URL: /election-bingo
+          CI: false
+          SKIP_PREFLIGHT_CHECK: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: build
